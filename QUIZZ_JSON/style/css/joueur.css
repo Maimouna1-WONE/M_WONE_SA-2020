@@ -1,0 +1,307 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   #form{
+    width: 1000px;
+    margin-top: 20px;
+    margin: 10px;
+    height: 550px;
+    font-family: 'Titillium Web', sans-serif;
+   background-color: whitesmoke;
+   }
+
+   #formHaut{
+    width: 980px;
+    height: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0px;
+    background-color:rgb(49, 134, 134);
+   }
+   
+   
+   h2{
+    text-align: center;
+    font-size: 20px;
+    line-height:10px; /* centrage vertical */
+    text-align: left;
+    margin-top: -65px;
+    margin-left: 275px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   h6{
+    text-align: center;
+    font-size: 20px;
+    line-height:15px; /* centrage vertical */
+    font-family: 'Titillium Web', sans-serif;
+  margin-top: 6px;
+    margin-left: 10px;
+    color: white;
+   }
+   #bouton{
+    width: 120px;
+    height: 60px;
+float: right;
+font-family: 'Titillium Web', sans-serif;
+margin-right: 5px;
+margin-top: -69px;
+border-radius: 5px;
+background-color: rgb(28, 190, 196);
+
+}
+h4{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -14px;
+    margin-left: 30px;
+      margin-right: 20px;
+     color: rgb(248, 248, 245);
+     font-size: 10px;
+      float: left;
+      }
+      h3{
+          color: white;
+      }
+#bouton1{
+    width: 120px;
+    height: 60px;
+float: left;
+font-family: 'Titillium Web', sans-serif;
+margin-left: 10px;
+border-radius: 5px;
+margin-top: 23px;
+background-color: rgb(68, 70, 70);
+
+}
+#bouton2{
+    width: 120px;
+    height: 60px;
+float: right;
+font-family: 'Titillium Web', sans-serif;
+margin-right: 10px;
+margin-top: 23px;
+border-radius: 5px;
+background-color: rgb(28, 190, 196);
+
+}
+#bouton3{
+    width: 120px;
+    height: 60px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 23px;
+border-radius: 5px;
+background-color: rgb(60, 128, 131);
+font-family: 'Titillium Web', sans-serif;
+}
+
+#ms{
+    font-size: 80px;
+    margin: 90px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+li a {
+    font-family: 'Titillium Web', sans-serif;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    font-family: 'Titillium Web', sans-serif;
+    background-color:rgb(245, 207, 207);
+}
+#en_cours a{
+    font-family: 'Titillium Web', sans-serif;
+    border-style: solid;
+  
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+border-width: 4px;
+    border-color: rgb(61, 165, 19);
+}
+
+#GD{
+    width: 970px;
+    height: 460px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+#gauche{
+    width: 550px;
+    height: 460px;
+background-color: whitesmoke;
+border-style: solid;
+border-width: 2px;
+border-radius: 15px;
+border-color: aquamarine;
+}
+#G1{
+    width:550px ;
+    height: 150px;
+    
+
+}
+#maina{
+    width: 500px;
+    height: 120px;  
+    margin-left: 25px;
+    margin-top: -40px;
+    background-color: rgb(211, 208, 208);
+    border-style: solid;
+    font-family: 'Titillium Web', sans-serif;
+    border-width: 1px;
+    border-radius: 5px;
+    border-top: 0px;
+    border-left: 0px;
+border-color: aquamarine;
+}
+
+#input21{
+    width: 50px;
+    height: 30px;
+    float: right;
+    text-align: center;
+margin-top: 2px;
+margin-right: 22px;
+font-family: 'Titillium Web', sans-serif;
+background-color: rgb(211, 208, 208);
+border-style: solid;
+
+border-width: 1px;
+border-radius: 5px;
+border-top: 0px;
+border-left: 0px;
+border-color: aquamarine;
+
+}
+
+h5{
+    text-decoration : underline;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#G2{
+    width:550px ;
+    height:40px ;
+   
+    
+}
+#G3{
+    width: 550px;
+    height: 170px;
+   
+}
+
+
+#G4{
+    width: 550px;
+    height:100px ;
+   
+    
+}
+#droite{
+    width:300px ;
+    height: 360px;
+    float: right;
+    margin-top: -430px;
+    margin-right: 50px;
+    
+
+   
+border-width: 2px;
+border-radius: 5px;
+
+}
+
+table{
+    font-family: 'Titillium Web', sans-serif;
+   
+   border-spacing: 30px;
+  
+}
+
+#score{
+    font-family: 'Titillium Web', sans-serif;
+    width: 80px;
+    border-style: solid;
+border-width: 4px;
+border-radius: 3px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+
+}
+
+
+   footer{
+       height: 575px;
+       width: 1000px;
+       margin: 0 auto;
+       display: flex;
+       background: linear-gradient(rgba(7, 68, 70, 0.7), rgb(7, 68, 70, 0.7)),url(../image/img-bg.jpg);
+       background-size: cover;background-repeat: no-repeat;
+   }
+   
+   #conteneur{
+       display: flex;
+       margin: 0 auto;
+       width: 1000px;
+       background-color: rgb(43, 42, 42);
+   }
+   #zoneG{
+       background-image: url(../image/logo-QuizzSA.png);
+       background-repeat: no-repeat;
+       width: 150px;
+       height: 110px;
+       background-size: 67px;
+      
+   }
+   #zoneD{
+     
+       height: 110px;
+       width : 850px; 
+       text-align: center;
+       line-height:90px; /* centrage vertical */
+       /* centrage horizontal */
+    color: white;
+    margin-top: 5px;
+    margin-left: -37px;
+   }
+   
+   #av{
+       width: 100px;
+       height: 80px;
+      
+       border-radius:50%;
+  width:60px;
+  height:60px;
+  border:2px solid #0fe4d2; 
+margin-left: 20px;
+        background-repeat: no-repeat;
+        background-size: 60px;
+   }
+   #avatar{
+    width: 100px;
+    height: 80px;
+   
+   }
+  

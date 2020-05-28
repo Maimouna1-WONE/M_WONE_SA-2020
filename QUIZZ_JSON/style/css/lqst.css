@@ -1,0 +1,249 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   #form{
+    width: 1000px;
+    margin-top: 20px;
+    margin: 10px;
+    height: 550px;
+    
+   background-color: whitesmoke;
+   }
+   #formHaut{
+    width: 980px;
+    height: 80px;
+    margin-top: 0px;
+    background-color:  rgb(49, 134, 134);
+   }
+   h2{
+    text-align: center;
+    line-height:80px; /* centrage vertical */
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 300px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   #bouton{
+    width: 120px;
+    height: 60px;
+margin-left: 810px;
+margin-top: 10px;
+border-radius: 5px;
+font-family: 'Titillium Web', sans-serif;
+background-color: rgb(28, 190, 196);
+
+}
+#bouton2{
+    width: 100px;
+    height: 40px;
+float: right;
+margin-top: -2px;
+background-color: rgb(216, 10, 123);
+font-family: 'Titillium Web', sans-serif;
+
+}
+#bouton3{
+    width: 100px;
+    height: 40px;
+float: left;
+background-color: rgb(134, 90, 114);
+font-family: 'Titillium Web', sans-serif;
+}
+
+#gauche{
+    width: 400px;
+    height: 380px;
+    margin: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 236, 212);
+}
+#gH{
+    width: 400px;
+    height: 100px;
+    margin: 40px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: rgb(49, 134, 134);
+}
+
+  #tof{ border-radius:50%;
+  width:94px;
+  height:94px;
+  border:2px solid #0fe4d2; 
+margin-left: 30px;
+       
+        background-repeat: no-repeat;
+        background-size: 94px;
+}
+#gB{
+    width: 400px;
+    height: 270px;
+    margin: 40px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#dH{ 
+    width: 500px;
+    height: 50px;
+}
+#name{
+    width: 70px;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 190px;
+   color: ivory;
+   font-size: 20px;
+    float: right;
+    font-family: 'Titillium Web', sans-serif;
+}
+#dHB{
+   border-radius: 10px;
+background-color: rgb(226, 222, 220);
+    width: 500px;
+    height: 420px;
+}
+#dF{
+    
+    width: 500px;
+    height: 30px;
+  
+    border-radius: 5px;
+    
+}
+h3{
+    color: white;
+    margin-top: 10px;
+}
+#input11{
+    width: 60px;
+    height: 30px;
+float: right;
+margin-top: -65px;
+margin-right: 80px;
+background-color: white;
+font-family: 'Titillium Web', sans-serif;
+}
+#bouton1{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+border-radius: 5px;
+margin-top: -63px;
+background-color: rgb(49, 16, 141);
+font-family: 'Titillium Web', sans-serif;
+}
+h4{
+    margin-top: 4px;
+    margin-left: -3px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+    margin-top: 15px;
+    margin-left: -3px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#nbre{
+    color: black;
+}
+#dB{
+    background-color: rgb(242, 239, 245);
+    width: 490px;
+    height: 360px;
+    margin: 5px; 
+    border-radius: 5px;
+    border:1px solid gray;   
+}
+#qs{
+    float: left;
+    margin-top: -60px;
+    margin-left: 170px;
+    font-family: 'Titillium Web', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 2px 0 8px 16px;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    font-family: 'Titillium Web', sans-serif;
+    background-color:rgb(245, 207, 207);
+}
+#en_cours a{
+    border-style: solid;
+  
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+border-width: 4px;
+    border-color: rgb(61, 165, 19);
+    font-family: 'Titillium Web', sans-serif;
+}
+#droite{
+    width: 500px;
+    height: 450px;
+    margin:20px;
+    margin-top: -450px;
+    margin-left: 450px;
+    border-radius: 10px;
+    
+
+}
+   footer{
+       height: 575px;
+       width: 1000px;
+       margin: 0 auto;
+       display: flex;
+       background: linear-gradient(rgba(7, 68, 70, 0.7), rgb(7, 68, 70, 0.7)),url(../image/img-bg.jpg);
+       background-size: cover;background-repeat: no-repeat;
+   }
+   
+   #conteneur{
+       display: flex;
+       margin: 0 auto;
+       width: 1000px;
+       background-color: rgb(43, 42, 42);
+   }
+   #zoneG{
+       background-image: url(../image/logo-QuizzSA.png);
+       background-repeat: no-repeat;
+       width: 150px;
+       height: 110px;
+       background-size: 67px;
+   }
+   #zoneD{
+     
+       height: 110px;
+       width : 850px; 
+       text-align: center;
+       line-height:90px; /* centrage vertical */
+       text-align:center; /* centrage horizontal */
+    color: white;
+    margin-left: -25px;
+   }

@@ -1,0 +1,31 @@
+        .onglet
+        {
+                display:inline-block;
+                margin-right:-4px;
+                padding:3px;
+                cursor:pointer;
+                height:40px
+        }
+        .onglet_0
+        {
+            border-radius: 1px; 
+            background:whitesmoke;
+            color:#00CED1;
+            box-shadow: 0 5px 5px -5px #333;
+        }
+        .onglet_1
+        {
+            border-radius: 1px; 
+                width:160px;
+                background:white;
+                box-shadow: 5px 0 5px -5px #333;
+                box-shadow: 0 -5px 5px -5px #333;
+        }
+        .contenu_onglet
+        { 
+            border-radius: 1px; 
+                background-color:white;
+                box-shadow: 0 0 5px #333;
+                height:350px;
+                display:none;
+        }

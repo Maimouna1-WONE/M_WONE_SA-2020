@@ -1,0 +1,81 @@
+[{
+    "Question": "Les precurseurs de la revolution digitale",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["GAFAM", "CIA-FBI"],
+    "Good": ["1"]
+}, {
+    "Question": "Quels est la premiere ecole de codage gratuite au Senegal?",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["Simplon", "Orange Digital Center"],
+    "Good": ["2"]
+}, {
+    "Question": "Quel terme definit le langage qui s'adapte sur Android et sur Ios?",
+    "Score": "5",
+    "Choix": "ct",
+    "Reponse": ["ionic"],
+    "Good": ["IONIC"]
+}, {
+    "Question": "D'ou vient le corona?",
+    "Score": "5",
+    "Choix": "cs",
+    "Reponse": ["Italie", "Chine"],
+    "Good": ["2"]
+}, {
+    "Question": "Que signifie empty ?",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["vide", "non cliqu\u00e9"],
+    "Good": ["1"]
+}, {
+    "Question": "Y'a t-il combien de morts pour le corona ?",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["6000 morts", "le nombre est indefi"],
+    "Good": ["2"]
+}, {
+    "Question": "Quels sont les langages Web?",
+    "Score": "5",
+    "Choix": "cm",
+    "Reponse": ["HTML", "R", "JAVA"],
+    "Good": ["1", "3"]
+}
+, {
+    "Question": "Le cerveau de tout syst\u00e8me informatique est :",
+    "Score": "10",
+    "Choix": "ct",
+    "Reponse":["CPU"],
+    "Good":["CPU"]
+}, {
+    "Question": "Quelle est la capitale du Senegal ?",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["Dakar", "Saint-Louis"],
+    "Good": ["1"]
+}, {
+    "Question": "Quel est l' actuel version de HTML ?",
+    "Score": "6",
+    "Choix": "cm",
+    "Reponse": ["5", "2", "3"],
+    "Good": ["1"]
+}, {
+    "Question": "Framework javaScript ?",
+    "Score": "5",
+    "Choix": "cm",
+    "Reponse": ["Angular", "React", "vanilla js"],
+    "Good": ["1", "2"]
+}, {
+    "Question": "GUI signifie ?",
+    "Score": "10",
+    "Choix": "cs",
+    "Reponse": ["Graph Use Interface","Graphical Universal Interface","Graphical User Interface"],
+    "Good": ["3"]
+}, {
+    "Question": "Laquelle des fonctions suivantes convertira une cha\u00eene en majuscule?",
+    "Score": "7",
+    "Choix": "cs",
+    "Reponse": ["strtoupper()","uppercase()","str_uppercase()"],
+    "Good": ["1"]
+}
+]

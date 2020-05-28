@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^lien$ index.php
+RewriteRule ^index/([a-z]+)$ index.php?lien=$1
+RewriteRule ^index/([a-z]+)/([a-zA-Z]+)$ index.php?lien=$1&smenu=$2
+RewriteRule ^index/([a-z]+)/([a-zA-Z]+)/([0-9]+)$ index.php?lien=$1&smenu=$2&page=$3

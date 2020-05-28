@@ -1,0 +1,131 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   #form{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 400px;
+   background-color: whitesmoke;
+   }
+   #formBas1{
+    width: 600px;
+    height: 106px;
+   
+    
+   }
+   a{
+    text-decoration: none;
+   }
+   #input1{
+       width: 580px;
+       height: 60px;
+margin-left: 8px;
+font-family: 'Titillium Web', sans-serif;
+margin-top: 20px;
+border-radius: 5px;
+background:url(../icone/ic-login.png) no-repeat right;
+background-color: white;
+
+   }
+   #input2{
+    width: 580px;
+    height: 60px;
+margin-left: 8px;
+margin-top: 20px;
+border-radius: 5px;
+background:url(../icone/ic-password.png) no-repeat right;
+background-color: white;
+font-family: 'Titillium Web', sans-serif;
+}
+#clic{
+    margin-left: 100px;
+    color: rgb(168, 155, 155);
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+#bouton{
+    width: 100px;
+    height: 60px;
+margin-left: 8px;
+margin-top: 20px;
+
+
+border-radius: 5px;
+background-color: rgb(11, 184, 190);
+
+}
+h3{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+   #formBas2{
+    width: 600px;
+    height: 106px;
+   
+    
+   }
+   #formBas3{
+    width: 600px;
+    height: 106px;
+    
+   
+   }
+   #formHaut{
+    width: 600px;
+    height: 80px;
+    margin-top: -20px;
+    background-color:  rgb(11, 184, 190);
+   }
+   h2{
+    text-align: center;
+    line-height:80px; /* centrage vertical */
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+   }
+   footer{
+       height: 575px;
+       width: 1000px;
+       margin: 0 auto;
+       display: flex;
+       background: linear-gradient(rgba(7, 68, 70, 0.7), rgb(7, 68, 70, 0.7)),url(../image/img-bg.jpg);
+      
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
+   h1{
+       font-size: 35px;
+   }
+   #conteneur{
+       display: flex;
+       margin: 0 auto;
+       width: 1000px;
+       background-color: rgb(43, 42, 42);
+   }
+   #zoneG{
+       background-image: url(../image/logo-QuizzSA.png);
+       background-repeat: no-repeat;
+       width: 150px;
+       height: 110px;
+       background-size: 67px;
+   }
+   #zoneD{
+     
+       height: 110px;
+       width : 850px; 
+       text-align: center;
+       line-height:90px; /* centrage vertical */
+       text-align:center; /* centrage horizontal */
+    color: white;
+    margin-left: -47px;
+   }
