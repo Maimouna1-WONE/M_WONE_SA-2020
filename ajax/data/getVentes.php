@@ -1,0 +1,35 @@
+<?php
+require_once "../db/connexion.php";
+    global $db;
+
+    $limit = $_POST['limit'];
+    $offset = $_POST['offset'];
+    $date = $_POST['date'];
+
+
+    $sql ="
+            SELECT * 
+            FROM vente
+            ORDER BY id DESC
+            LIMIT {$limit} 
+            OFFSET {$offset}
+    ";
+
+    if($date==1){
+        $date = date('Y-m-d');
+        $sql = "
+        SELECT * 
+        FROM vente
+        WHERE date= DATE('{$date}')
+        ORDER BY id DESC
+        LIMIT {$limit} 
+        OFFSET {$offset}
+";
+        
+    }
+    $req = $db->query($sql);
+    $result = $req->fetchAll(2);
+
+    echo json_encode($result);
+
+?>
