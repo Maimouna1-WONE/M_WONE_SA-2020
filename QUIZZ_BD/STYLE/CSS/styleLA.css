@@ -1,0 +1,54 @@
+    .pagineA {
+        width: 500px;
+        height: 270px;
+        margin-left: 350px;
+    }
+    
+    .btnPage {
+        width: 900px;
+        height: 45px;
+        margin-left: 150px;
+    }
+    
+    #bouton2 {
+        width: 120px;
+        height: 40px;
+        float: right;
+        margin-top: 3px;
+        border-radius: 5px;
+        background-color: rgb(18, 170, 175);
+        color: var(--writting-color);
+    }
+    
+    #bouton3 {
+        width: 120px;
+        height: 40px;
+        float: left;
+        margin-top: 3px;
+        border-radius: 5px;
+        color: var(--writting-color);
+        background-color: rgb(117, 160, 161);
+    }
+    
+    table {
+        width: 500px;
+        height: 200px;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        table {
+            margin-left: -100px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        table {
+            width: 300px;
+            height: 200px;
+            margin-left: -347px;
+        }
+        .btnPage {
+            width: 300px;
+            margin-left: 0px;
+        }
+    }

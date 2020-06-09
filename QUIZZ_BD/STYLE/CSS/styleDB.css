@@ -1,0 +1,33 @@
+    .q {
+        border-radius: 10px;
+        background-color: rgb(231, 152, 4);
+        border: 2px solid rgb(231, 152, 4);
+        margin-left: 23px;
+    }
+    
+    .u {
+        float: left;
+        border-radius: 10px;
+        background-color: rgb(139, 92, 3);
+        border: 2px solid rgb(139, 92, 3);
+    }
+    
+    .f {
+        border-radius: 10px;
+        background-color: rgb(139, 3, 139);
+        border: 2px solid rgb(139, 3, 139);
+        float: right;
+        margin-right: 875px;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .f {
+            margin-right: 645px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .f {
+            margin-right: 5px;
+        }
+    }

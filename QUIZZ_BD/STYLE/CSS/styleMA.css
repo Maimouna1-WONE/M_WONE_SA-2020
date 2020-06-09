@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --succes-color: #2ecc71;
+    --error-color: #e74c3c;
+    --fav-color: rgb(19, 124, 124);
+    --writting-color: #FFFAFA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ppA {
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--fav-color);
+}
+
+.nameA {
+    width: 500px;
+    height: 60px;
+    background-color: yellowgreen;
+    margin-top: -65px;
+    margin-left: 400px;
+    color: (--writting-color);
+    font-size: 35px;
+}
+
+.deconnexion button {
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--fav-color);
+    color: var(--writting-color);
+}
+
+.topnav {
+    height: 53px;
+    margin-top: 15px;
+    overflow: hidden;
+    background-color: var(--fav-color);
+    border-radius: 4px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--writting-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 230px;
+}
+
+.topnav a:hover {
+    background-color: #8F9393;
+    color: var(--writting-color);
+    width: 230px;
+}
+
+.bas {
+    width: 1190px;
+    height: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: var(--writting-color);
+    border: 2px solid var(--fav-color);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nameA {
+        margin-left: 270px;
+    }
+    .deconnexion button {
+        margin-right: 30px;
+    }
+    .topnav a {
+        width: 190px;
+    }
+    .bas {
+        width: 960px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ppA {
+        margin-left: 0px;
+    }
+    .nameA {
+        width: 150px;
+        margin-left: 90px;
+        font-size:32px;
+    }
+    .deconnexion button {
+        margin-right: -5px;
+    }
+    .topnav a {
+        font-size: 11px;
+        width: 60.5px;
+        text-decoration: none;
+    }
+    .topnav a:hover {
+        width: 130px;
+        height: 53px;
+    }
+    .bas {
+        width: 310px;
+    }
+}
